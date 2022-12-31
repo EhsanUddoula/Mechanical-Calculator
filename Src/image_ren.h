@@ -353,134 +353,134 @@ void Load_image(SDL_Renderer* render){
 
     //option button
     //for problem index
-    surface=IMG_Load("Image/index.png");
+    surface=IMG_Load("Button-img/index.png");
     img[96]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[20]={450,40,360,80};
     SDL_FreeSurface(surface);
     //1.inclined plane
-    surface=IMG_Load("Image/1 inclined planes.png");
+    surface=IMG_Load("Button-img/1 inclined planes.png");
     img[8]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[6]={70,180,290,80};
     SDL_FreeSurface(surface);
     //2.impulse
-    surface=IMG_Load("Image/2 impulsive force.png");
+    surface=IMG_Load("Button-img/2 impulsive force.png");
     img[9]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[7]={70,300,290,80};//{128,125,250,55};
     SDL_FreeSurface(surface);
     //3.pulley
-    surface=IMG_Load("Image/3 pulley.png");
+    surface=IMG_Load("Button-img/3 pulley.png");
     img[10]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[8]={70,420,290,80};//{128,160,250,55};
     SDL_FreeSurface(surface);
     //4.rotational motion
-    surface=IMG_Load("Image/4 rotational motion.png");
+    surface=IMG_Load("Button-img/4 rotational motion.png");
     img[11]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[9]={70,540,290,80};
     SDL_FreeSurface(surface);
     //5.depth_measurement
-    surface=IMG_Load("Image/5 depth measurement.png");
+    surface=IMG_Load("Button-img/5 depth measurement.png");
     img[13]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[10]={70,660,290,80};
     SDL_FreeSurface(surface);
     //6 wave melody
-    surface=IMG_Load("Image/6 wave melody.png");
+    surface=IMG_Load("Button-img/6 wave melody.png");
     img[17]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[11]={485,180,290,80};
     SDL_FreeSurface(surface);
     //7 angular momentum
-    surface=IMG_Load("Image/7 angular momentum.png");
+    surface=IMG_Load("Button-img/7 angular momentum.png");
     img[18]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[12]={485,300,290,80};
     SDL_FreeSurface(surface);
     //8 surface tension
-    surface=IMG_Load("Image/8 surface tension.png");
+    surface=IMG_Load("Button-img/8 surface tension.png");
     img[23]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[13]={485,420,290,80};
     SDL_FreeSurface(surface);
     //9 hammer nail
-    surface=IMG_Load("Image/9 hammer nail.png");
+    surface=IMG_Load("Button-img/9 hammer nail.png");
     img[31]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[14]={485,540,290,80};
     SDL_FreeSurface(surface);
     //10.rod
-    surface=IMG_Load("Image/10.rod.png");
+    surface=IMG_Load("Button-img/10.rod.png");
     img[44]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[15]={485,660,290,80};
     SDL_FreeSurface(surface);
     //11.triangle
-    surface=IMG_Load("Image/11.triangle.png");
+    surface=IMG_Load("Button-img/11.triangle.png");
     img[50]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[16]={900,180,290,80};
     SDL_FreeSurface(surface);
     //12.disc
-    surface=IMG_Load("Image/12.disc.png");
+    surface=IMG_Load("Button-img/12.disc.png");
     img[68]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[17]={900,300,290,80};
     SDL_FreeSurface(surface);
     //13.ring
-    surface=IMG_Load("Image/13.ring.png");
+    surface=IMG_Load("Button-img/13.ring.png");
     img[86]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[18]={900,420,290,80};
     SDL_FreeSurface(surface);
     //14.sphere
-    surface=IMG_Load("Image/14.sphere.png");
+    surface=IMG_Load("Button-img/14.sphere.png");
     img[95]=SDL_CreateTextureFromSurface(render,surface);
     img_rect[19]={900,540,290,80};
     SDL_FreeSurface(surface);
     //button 1
-    surface=IMG_Load("Image/1 inclined planesB.png");
+    surface=IMG_Load("Button-img/1 inclined planesB.png");
     img[98]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 2
-    surface=IMG_Load("Image/2 impulsive forceB.png");
+    surface=IMG_Load("Button-img/2 impulsive forceB.png");
     img[99]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 3
-    surface=IMG_Load("Image/3 pulleyB.png");
+    surface=IMG_Load("Button-img/3 pulleyB.png");
     img[100]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 4
-    surface=IMG_Load("Image/4 rotational motionB.png");
+    surface=IMG_Load("Button-img/4 rotational motionB.png");
     img[101]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 5
-    surface=IMG_Load("Image/5 depth measurementB.png");
+    surface=IMG_Load("Button-img/5 depth measurementB.png");
     img[102]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 6
-    surface=IMG_Load("Image/6 wave melodyB.png");
+    surface=IMG_Load("Button-img/6 wave melodyB.png");
     img[103]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 7
-    surface=IMG_Load("Image/7 angular momentumB.png");
+    surface=IMG_Load("Button-img/7 angular momentumB.png");
     img[104]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 8
-    surface=IMG_Load("Image/8 surface tensionB.png");
+    surface=IMG_Load("Button-img/8 surface tensionB.png");
     img[105]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 9
-    surface=IMG_Load("Image/9 hammer nailB.png");
+    surface=IMG_Load("Button-img/9 hammer nailB.png");
     img[106]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 10
-    surface=IMG_Load("Image/10.rodB.png");
+    surface=IMG_Load("Button-img/10.rodB.png");
     img[107]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 11
-    surface=IMG_Load("Image/11.triangleB.png");
+    surface=IMG_Load("Button-img/11.triangleB.png");
     img[108]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 12
-    surface=IMG_Load("Image/12.discB.png");
+    surface=IMG_Load("Button-img/12.discB.png");
     img[109]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 13
-    surface=IMG_Load("Image/13.ringB.png");
+    surface=IMG_Load("Button-img/13.ringB.png");
     img[110]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
     //button 14
-    surface=IMG_Load("Image/14.sphereB.png");
+    surface=IMG_Load("Button-img/14.sphereB.png");
     img[111]=SDL_CreateTextureFromSurface(render,surface);
     SDL_FreeSurface(surface);
 }
