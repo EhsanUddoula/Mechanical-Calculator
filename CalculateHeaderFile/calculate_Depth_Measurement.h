@@ -137,7 +137,7 @@ void Cal_Depth_Measurement(SDL_Window* window, SDL_Renderer* render, SDL_Texture
 
         //image2
         rect={630.0-r/2.0,depth-r/2.0,r,r*1.0};
-        SDL_RenderCopyF(render,tex,NULL,&rect);
+        SDL_RenderCopyF(render,img[15],NULL,&rect);
 
 		//condition of movement
         if(depth>250.0){
